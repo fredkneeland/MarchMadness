@@ -1,3 +1,13 @@
+/**
+ * Script for generating a march madness bracket at codersbracket.com
+ * Unfortunately it is no longer running
+ *
+ * TODO: convert to a google app engine project that uses data
+ *       From previous years to build a neural net to estimate the
+ *       Relationships between stats and wins
+ *
+ */
+
 function(game, team1, team2) {
   // seed 1-16
   var seedVal = 1.0;
